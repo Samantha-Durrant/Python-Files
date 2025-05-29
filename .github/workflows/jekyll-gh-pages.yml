@@ -46,6 +46,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+
+  title: Python Files from the Global Career Accelerator
+description: Python files and resources for the Global Career Accelerator program
+theme: cayman
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
